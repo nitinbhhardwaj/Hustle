@@ -1,0 +1,20 @@
+#box{
+    display:block;
+    text-align:center;
+    font-size:10em;
+}
+#buttonContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    padding:10px;
+    margin:7px;
+    border-radius:5px;
+    background-color:rgb(114, 232, 193);
+    transition:background-color 0.25s;
+}
+button:hover{
+    background-color:rgb(15, 106, 75);
+}
