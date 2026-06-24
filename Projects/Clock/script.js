@@ -4,7 +4,7 @@ function updateClock(){
     const minutes= now.getMinutes().toString().padStart(2,0);
     const seconds= now.getSeconds().toString().padStart(2,0);
     const timeString=`${hours}:${minutes}:${seconds}`;
-    document.getElementsById("clock").textContent=timeString;
+    document.getElementById("clock").textContent=timeString;
 }
 updateClock();
-setInterval(updateClock,100)
+setInterval(updateClock,1000);
