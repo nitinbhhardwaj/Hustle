@@ -1,18 +1,36 @@
+@font-face{
+    font-family:'Alien Block';
+    src:url(./Fonts/AlienBlock-Regular.ttf);
+}
+@font-face{
+src:url(./Fonts/Roboto-VariableFont_wdth,wght.ttf);
+    font-family:'Roboto';
+}
+
 body{
-    background-color:black;
+    /* background-color:black; */
+    font-size:1.5em;
+    font-weight:bold;
+    font-style:italic;
 }
 #head{
-    color:white;
+    color:black;
 }
 #para1{
-    color:red;
+    color:rgb(116, 54, 54);
 }
 #para2{
     color:orange;
 }
 #para3{
-    color:yellow;
+    color:rgb(84, 84, 27);
 }
 #para4{
-    color:green;
+    color:hsl(343, 46%, 64%);
+}
+.odd{
+    font-family:'Alien Block';
+}
+.even{
+    font-family:'Roboto';
 }
