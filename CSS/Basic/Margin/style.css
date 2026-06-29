@@ -1,0 +1,13 @@
+.box{
+    height:200px;
+    width:200px;
+    margin-right:auto;
+}
+#box1{
+    background-color: hsl(0, 62%, 56%);
+    border:2px solid;
+}
+#box2{
+    background-color: hsl(187, 62%, 56%);
+    border:2px solid;
+}
