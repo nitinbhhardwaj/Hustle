@@ -1,0 +1,20 @@
+div{
+    border:2px solid;
+    background-color: #e14d4d;
+    font-size: 2em;
+    display:none;
+    height:100px;
+    width:100px;
+    visibility:hidden;
+}
+span{
+    border:2px solid;
+    background-color: hsl(206, 71%, 77%);
+    display:inline-block;
+    font-size: 2em;
+    height:100px;
+    width:100px;
+}
+p{
+    display:inline;
+}
