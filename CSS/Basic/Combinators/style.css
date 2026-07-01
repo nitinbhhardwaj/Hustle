@@ -1,0 +1,7 @@
+#box{
+    border:2px solid;
+}
+
+#box ~ p{
+    background-color: yellow;
+}
